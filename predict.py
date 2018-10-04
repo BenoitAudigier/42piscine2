@@ -14,6 +14,6 @@ def main():
         print("Yeah no I haven't been trained before so I'm gonna try to guess: how about " + str(np.random.randint(-99999999, 99999999)) + "?")
         print("Seriously tho, run python train.py first.")
         return(None)
-    predict(mil)
+    predict(mil, theta)
 
 main()

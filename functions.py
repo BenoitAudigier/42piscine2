@@ -29,3 +29,5 @@ def askMileage(alreadyAsked = False):
 
 def predict(mileage, theta):
     return(theta[0] + mileage*theta[1])
+
+#print(predict(200,[20,30]))

@@ -11,7 +11,7 @@ def representation_data():
   plt.plot(km,price,'o')
   plt.title("Visualisation of the data")
   plt.xlabel("Distance parcourue (en km)")
-  plt.ylabel("Prix du kilomètre")
+  plt.ylabel("Prix du kilometre")
   plt.show()
 
 #vis of the result, with the linear regression
@@ -27,7 +27,7 @@ def representation_final():
   plt.plot(km,pred)
   plt.title("Visualisation of the linear rgression")
   plt.xlabel("Distance parcourue (en km)")
-  plt.ylabel("Prix du kilomètre")
+  plt.ylabel("Prix du kilometre")
   plt.show()
 
 #vis of the evolution of theta0, theta1 and loss along the iterations

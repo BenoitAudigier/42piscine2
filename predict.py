@@ -11,7 +11,7 @@ def main():
     try:
         theta = readTheta()
         pred = predict(mil, theta)
-        print("This very powerful algorithm predicts the price to be around " + pred + " of whatever money that is.")
+        print("This very powerful algorithm predicts the price to be around " + str(round(pred)) + " of whatever money that is.")
     except TypeError:
         print("Yeah no I haven't been trained before so I'm gonna try to guess: how about " + str(np.random.randint(-99999999, 99999999)) + "?")
         print("Seriously tho, run python train.py first.")
